@@ -1,0 +1,17 @@
+{
+  "name": "XI RPL 2 — SMKN 1 Rembang",
+  "short_name": "XI RPL 2",
+  "description": "Website resmi kelas XI Rekayasa Perangkat Lunak 2, SMKN 1 Rembang.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf9f6",
+  "theme_color": "#fbbf24",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
