@@ -86,7 +86,7 @@ INBOX_PASSCODE=           # Kata sandi halaman Kotak Masuk (/inbox)
 
 Pesan dari form kontak tersimpan di tabel `messages` (Convex). Pemegang situs membacanya di halaman **`/inbox`**:
 
-1. Set `INBOX_PASSCODE` di environment Convex
+1. Set `INBOX_PASSCODE` di environment Convex   
 2. Buka `/inbox` di situs → masukkan kata sandi
 3. Semua pesan tampil dengan urutan terbaru di atas — lengkap dengan nama, email, dan tanggal
 
