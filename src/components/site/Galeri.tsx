@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 const items = [
   {
-    src: "fotbar.HEIC",
+    src: "fotbar.jpg",
     caption: "Foto Bersama Kelas",
     meta: "Dokumentasi resmi",
     className: "sm:col-span-2 sm:row-span-2",
