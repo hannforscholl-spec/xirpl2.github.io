@@ -2,11 +2,12 @@ import { motion } from "framer-motion";
 import { Camera, ImageIcon } from "lucide-react";
 import { Reveal } from "@/components/site/Reveal";
 import { SectionHeading } from "@/components/site/SectionHeading";
+import { photoUrl } from "@/data/students";
 import { cn } from "@/lib/utils";
 
 const items = [
   {
-    src: "fotbar.jpg",
+    src: "lock.jpg",
     caption: "Foto Bersama Kelas",
     meta: "Dokumentasi resmi",
     className: "sm:col-span-2 sm:row-span-2",
@@ -87,12 +88,12 @@ export function Galeri() {
               )}
             >
               <img
-                  src={`/photos/${item.src}`}
-                  alt={item.caption}
-                  loading="lazy"
-                  decoding="async"
-                  className="size-full object-cover transition-transform duration-700 group-hover:scale-110"
-                />
+                src={photoUrl(item.src)}
+                alt={item.caption}
+                loading="lazy"
+                decoding="async"
+                className="size-full object-cover transition-transform duration-700 group-hover:scale-110"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-70 transition-opacity duration-300 group-hover:opacity-100" />
               <figcaption className="absolute inset-x-0 bottom-0 translate-y-3 p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                 <p className="font-display text-sm font-bold text-white">

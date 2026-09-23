@@ -212,7 +212,7 @@ export function Hero({ started }: { started: boolean }) {
             <div className="absolute -inset-3 -rotate-1 rounded-2xl border border-dashed border-foreground/20" />
             <figure className="group relative overflow-hidden rounded-2xl border bg-card shadow-2xl">
               <img
-                src="public/photos/fotbar.jpg"
+                src={photoUrl("fotbar.jpg")}
                 alt="Foto kelas XI RPL 2"
                 className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="eager"
