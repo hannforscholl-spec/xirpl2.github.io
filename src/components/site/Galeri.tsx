@@ -2,12 +2,11 @@ import { motion } from "framer-motion";
 import { Camera, ImageIcon } from "lucide-react";
 import { Reveal } from "@/components/site/Reveal";
 import { SectionHeading } from "@/components/site/SectionHeading";
-import { photoUrl } from "@/data/students";
 import { cn } from "@/lib/utils";
 
 const items = [
   {
-    src: "lock.jpg",
+    src: "/photos/fotbar.jpg",
     caption: "Foto Bersama Kelas",
     meta: "Dokumentasi resmi",
     className: "sm:col-span-2 sm:row-span-2",
@@ -88,7 +87,7 @@ export function Galeri() {
               )}
             >
               <img
-                src={photoUrl(item.src)}
+                src={item.src}
                 alt={item.caption}
                 loading="lazy"
                 decoding="async"

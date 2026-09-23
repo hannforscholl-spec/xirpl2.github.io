@@ -6,7 +6,6 @@ import { Badge } from "@/components/ui/badge";
 import { ThreeBackground } from "@/components/site/ThreeBackground";
 import { Magnetic } from "@/components/site/Magnetic";
 import { Asterisk, Squiggle, Brackets, Ring, PlusMark } from "@/components/site/Decor";
-import { photoUrl } from "@/data/students";
 
 const words = [
   "Calon Software Engineer.",
@@ -212,12 +211,12 @@ export function Hero({ started }: { started: boolean }) {
             <div className="absolute -inset-3 -rotate-1 rounded-2xl border border-dashed border-foreground/20" />
             <figure className="group relative overflow-hidden rounded-2xl border bg-card shadow-2xl">
               <img
-                src={photoUrl("fotbar.jpg")}
-                alt="Foto kelas XI RPL 2"
-                className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="eager"
-                decoding="async"
-              />
+                  src="/photos/fotbar.jpg"
+                  alt="Foto kelas XI RPL 2"
+                  className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="eager"
+                  decoding="async"
+                />
               <figcaption className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-gradient-to-t from-black/70 to-transparent px-4 pb-3 pt-10 text-left">
                 <div>
                   <p className="font-display text-sm font-semibold text-white">
