@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 const items = [
   {
-    src: "/photos/xirpl2.HEIC",
+    src: "/photos/xirpl2.jpg",
     caption: "Foto Bersama Kelas",
     meta: "Dokumentasi resmi",
     className: "sm:col-span-2 sm:row-span-2",
